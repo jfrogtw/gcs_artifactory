@@ -1,5 +1,6 @@
-
-This tutorial describes how to use Google Cloud Storage for a filestore managed by the JFrog Artifactory universal binary repository manager. When the procedure is complete, all artifacts pushed to Artifactory will be stored in Cloud Storage, and all artifacts retrieved through Artifactory will be drawn from Cloud Storage.
+[cards]: https://github.com/jfrogtw/gcs_artifactory/blob/master/Artifactory_and_GCS.png "Artifactory and GCS"
+This tutorial describes how to use Google Cloud Storage for a filestore managed by the JFrog [Artifactory universal repository manager](https://jfrog.com/artifactory/). When the procedure is complete, all artifacts pushed to Artifactory will be stored in Cloud Storage, and all artifacts retrieved through Artifactory will be drawn from Cloud Storage.
+![Artifactory and GCS][cards]
 
 Using Cloud Storage for your Artifactory filestore provides a secure, scalable binary repository that is stored remotely and with redundancy, aiding swift data recovery from a local disaster.
 
