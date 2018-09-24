@@ -127,7 +127,7 @@ Artifactory uses the JetS3t framework to access Cloud Storage. Some of the param
  | __httpsPort__ | Default: 443 <br/>The port number through which you want to access Cloud Storage securely through https. You should only use the default value unless you need to contact a different endpoint for testing purposes. |
  | __bucketExists__ | Default: false. Only available on _google-storage_. <br/>When true, it indicates to the binary provider that a bucket already exists in Google Cloud Storage and therefore does not need to be created. |
  
-For more information, see the Artifactory User's Guide topic [Configuring the Filestore](/confluence/display/RTF5X/Configuring+the+Filestore#ConfiguringtheFilestore-GoogleStorage,S3andS3OldBinaryProviders).
+For more information, see the Artifactory User's Guide topic [Configuring the Filestore](https://www.jfrog.com/confluence/display/RTF5X/Configuring+the+Filestore#ConfiguringtheFilestore-GoogleStorage,S3andS3OldBinaryProviders).
 
 
 
