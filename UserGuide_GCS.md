@@ -62,7 +62,7 @@ If you have not yet installed Artifactory Enterprise Edition v4.6 or newer, do s
 
 #### Option B: Existing Artifactory installation
 If you have an installed version of Artifactory, perform these steps:
-* **Backup your current filestore**<br/>Just in case something goes wrong, we recommend backing up your current filestore. To preserve your current filestore as a safety measure, perform a [complete system  backup](https://www.jfrog.com/confluence/display/RTF5X/Managing+Backups#ManagingBackups-CompleteSystemBackup) of Artifactory.
+* **Backup your current filestore**<br/>Just in case something goes wrong, we recommend backing up your current filestore. To preserve your current filestore as a safety measure, perform a [complete system  backup](https://www.jfrog.com/confluence/display/RTF/Managing+Backups#ManagingBackups-CompleteSystemBackup) of Artifactory.
 
 * **Make sure your version of Artifactory supports Cloud Storage**<br/>If your version of Artifactory is __not__ Enterprise Edition v4.6 or newer, you must perform a standard [upgrade](https://www.jfrog.com/confluence/display/RTF/Upgrading+Artifactory) using your current settings.
 
@@ -127,7 +127,7 @@ Artifactory uses the JetS3t framework to access Cloud Storage. Some of the param
  | __httpsPort__ | Default: 443 <br/>The port number through which you want to access Cloud Storage securely through https. You should only use the default value unless you need to contact a different endpoint for testing purposes. |
  | __bucketExists__ | Default: false. Only available on _google-storage_. <br/>When true, it indicates to the binary provider that a bucket already exists in Google Cloud Storage and therefore does not need to be created. |
  
-For more information, see the Artifactory User's Guide topic [Configuring the Filestore](https://www.jfrog.com/confluence/display/RTF5X/Configuring+the+Filestore#ConfiguringtheFilestore-GoogleStorage,S3andS3OldBinaryProviders).
+For more information, see the Artifactory User's Guide topic [Configuring the Filestore](https://www.jfrog.com/confluence/display/RTF/Configuring+the+Filestore#ConfiguringtheFilestore-GoogleStorage,S3andS3OldBinaryProviders).
 
 
 
